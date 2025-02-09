@@ -25,7 +25,7 @@ class HealthAndWellnessTracker:
     def assess_health(self):
         if self.height > 0 and self.weight > 0:
             bmi = self.weight / (self.height ** 2)
-            assessment = f"Your BMI is {bmi:.2f}.\n"
+            assessment = f"Your BMI is {bmi:.2f}!\n"
 
             if bmi < 18.5:
                 assessment += "You are underweight. Consider a nutritious diet.\n"
